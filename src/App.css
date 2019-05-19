@@ -1,6 +1,6 @@
 .App { 
 	display: flex;
-	overflow: hidden;
+	overflow: auto;
 	flex-direction: column;
 }
 
@@ -17,7 +17,7 @@
 	position: absolute;
 	left: 275px;
 	width: 80vw;
-	overflow-X: hidden;
+	overflow-y: auto;
 	height: 100vh;
 	background: white;
 }

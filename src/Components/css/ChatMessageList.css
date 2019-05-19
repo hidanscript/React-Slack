@@ -1,5 +1,12 @@
 .chat-msg-list {
+	overflow: auto;
+}
+
+.msg-list {
+	position: absolute;
+	top: 90%;
 	margin-bottom: 30px;
+	transform: translateY(-100%);
 }
 
 .chat-input #input-chat {

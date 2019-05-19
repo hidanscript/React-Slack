@@ -51,7 +51,7 @@ class ChatMessageList extends Component {
 					{msgList}
 				</div>
 				<div className = "chat-input">
-					<form onSubmit={this.addMessage}>
+					<form onSubmit={this.addMessage} autocomplete="off">
 						<input 
 						ref={(a) => this._inputElement = a}
 						type="text"

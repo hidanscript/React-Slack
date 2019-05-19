@@ -2,22 +2,30 @@
 	font-size: 12px;
 	padding: 0;
 	margin: 10px;
+	margin-left: 20px;
 }
 
 #userMsg {
 	font-size: 12px;
+	font-family: sans-serif;
 	padding: 0;
-	margin: 0;
+	margin: 5px;
 }
 
 .message-box {
 	display: flex;
-	background-color: lightgray;
-	border-radius: 8px;
+	background-color: rgba(0,0,0,.14);
+	border-radius: 12px 12px 12px 0px;
 	justify-content: flex-start;
+	align-items: stretch;
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
+	transition: 100ms ease-in;
+}
+
+.message-box:hover {
+	background-color: rgba(0,0,0,.3);
 }
 
 .message-box p {
