@@ -13,7 +13,7 @@ class ChannelList extends Component {
 
 	createChannel(item) {
 		if(this.state.showChannels) {
-			return <li key={Date.time}>{"# " + item}</li>
+			return <li key={Date.now()}>{"# " + item}</li>
 		}
 	}
 

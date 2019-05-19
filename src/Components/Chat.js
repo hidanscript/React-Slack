@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-import ChatInput from './ChatInput';
+import ChatMessageList from './ChatMessageList';
 
 class Chat extends Component {
 
 	render() {
 		return(
 			<div className="Chat">
-				<ChatInput/>		
+				<ChatMessageList user="hidanscript"/>		
 			</div>
 		);
 	}

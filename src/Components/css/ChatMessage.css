@@ -1,0 +1,28 @@
+.chat-message {
+	font-size: 12px;
+	padding: 0;
+	margin: 10px;
+}
+
+#userMsg {
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+}
+
+.message-box {
+	display: flex;
+	background-color: lightgray;
+	border-radius: 8px;
+	justify-content: flex-start;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+.message-box p {
+	font-size: 14px;
+	margin: 8px;
+	padding: 5px;
+	font-family: sans-serif;
+}

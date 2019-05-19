@@ -1,0 +1,27 @@
+.chat-msg-list {
+	margin-bottom: 30px;
+}
+
+.chat-input #input-chat {
+	position: fixed;
+	padding: 12px;
+	margin: 20px;
+	width: 75%;
+	height: 30px;
+	border-radius: 8px;
+	border: 1px solid gray;
+	box-sizing: border-box;
+	top: 90%;
+}
+
+.chat-input #input-chat::placeholder {
+	font-family: sans-serif;
+}
+
+.sendForm {
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+	border: none;
+	padding: 0;
+}
