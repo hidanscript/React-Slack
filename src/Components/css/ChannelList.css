@@ -1,0 +1,76 @@
+.app-info {
+
+}
+
+.app-info i {
+	display: inline-block;
+	font-size: 22px;
+	padding-left: 20px;
+	margin: 8px;
+	float: right;
+	cursor: pointer;
+}
+
+.channel-list {
+	position: absolute;
+	height: 100vh;
+	background-color: #5D5F80;
+	color: white;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+.channel-list #comp-name {
+	display: inline-block;
+	margin-top: 6px;
+	font-size: 22px;
+	color: #FFF;
+	font-family: sans-serif;
+	margin-left: 10px;
+}
+
+.channel-title {
+	margin-top: 120px;
+	height: 40px;
+	cursor: pointer;
+	align-items: center;
+	align-content: center;
+	transition: 150ms ease-in;
+	width: 100%;
+}
+
+.channel-title:hover {
+	background-color: #5D5F8F;
+}
+
+.channel-title h2 {
+	text-align: center;
+	display: inline-block;
+	color: rgba(255,255,255,.5);
+	font-size: 20px;
+	margin: 10px;
+}
+
+.channel-title i {
+	margin: 13px;
+	font-size: 16px;
+	align-self: flex-start;
+	text-align: center;
+	display: inline-block;
+	float: right;
+}
+
+.channel-items {
+	list-style: none;
+	color: rgba(255,255,255,.5);
+}
+
+.channel-items li {
+	width: 100%;
+	cursor: pointer;
+}
+
+.channel-items li:hover {
+	background-color: #5D5F8F;
+}
